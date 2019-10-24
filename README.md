@@ -1,7 +1,7 @@
 # Yolog Sentry plugin
 
 [![npm (scoped)](https://img.shields.io/npm/v/@jitesoft/yolog-sentry-plugin)](https://www.npmjs.com/package/@jitesoft/yolog-sentry-plugin)
-[![Known Vulnerabilities](https://dev.snyk.io/test/npm/@jitesoft/yolog-sentry-plugin/badge.svg)](https://dev.snyk.io/test/npm/@jitesoft/yolog-sentry-plugin)
+[![Known Vulnerabilities](https://snyk.io/test/npm/@jitesoft/yolog-sentry-plugin/badge.svg)](https://snyk.io/test/npm/@jitesoft/yolog-sentry-plugin)
 [![pipeline status](https://gitlab.com/jitesoft/open-source/javascript/yolog-plugins/sentry/badges/master/pipeline.svg)](https://gitlab.com/jitesoft/open-source/javascript/yolog-plugins/sentry/commits/master)
 [![coverage report](https://gitlab.com/jitesoft/open-source/javascript/yolog-plugins/sentry/badges/master/coverage.svg)](https://gitlab.com/jitesoft/open-source/javascript/yolog-plugins/sentry/commits/master)
 [![npm](https://img.shields.io/npm/dt/@jitesoft/yolog-sentry-plugin)](https://www.npmjs.com/package/@jitesoft/yolog-sentry-plugin)
