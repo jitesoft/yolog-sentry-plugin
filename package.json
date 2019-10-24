@@ -6,6 +6,7 @@
         "main": "src/index.js"
     },
     "main": "dist/index.js",
+    "browser": "dist/index-browser.js",
     "author": {
         "name": "Johannes Tegnér",
         "email": "johannes@jitesoft.com",
@@ -64,6 +65,6 @@
     "scripts": {
         "test": "eslint src/ tests/ && jest && npm audit",
         "build:prod": "cross-env NODE_ENV=production webpack -p",
-        "build:dev": "cross-env NODE_ENV=develop webpack"
+        "build:dev": "cross-env NODE_ENV=development webpack"
     }
 }

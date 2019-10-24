@@ -1,6 +1,6 @@
 const Path = require('path');
 
-const base = {
+module.exports = {
   mode: process.env.NODE_ENV,
   entry: [
     Path.join(__dirname, 'src', 'index.js')
@@ -17,27 +17,11 @@ const base = {
         loader: 'babel-loader'
       }
     ]
-  }
-};
-
-const node = Object.assign({}, {
-  target: 'node',
+  },
   output: {
     filename: 'index.js',
-    globalObject: 'this',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    library: '@jitesoft/yolog-sentry-plugin',
+    globalObject: 'this'
   }
-}, base);
-
-const web = Object.assign({}, {
-  target: 'web',
-  output: {
-    filename: 'index-browser.js',
-    globalObject: 'this',
-    libraryTarget: 'umd'
-  }
-}, base);
-
-module.exports = [
-  node, web
-];
+};
