@@ -6,7 +6,8 @@ module.exports = {
     Path.join(__dirname, 'src', 'index.js')
   ],
   externals: {
-    '@jitesoft/yolog': '@jitesoft/yolog'
+    '@jitesoft/yolog': '@jitesoft/yolog',
+    '@sentry/minimal': '@sentry/minimal'
   },
   module: {
     rules: [
