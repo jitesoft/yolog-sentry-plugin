@@ -39,28 +39,28 @@
         "url": "https://gitlab.com/jitesoft/open-source/javascript/yolog-plugins/sentry"
     },
     "peerDependencies": {
-        "@jitesoft/yolog": ">=2.6",
-        "@sentry/browser": "^5.7.1",
-        "@sentry/node": "^5.7.1"
+        "@jitesoft/yolog": ">=2.5",
+        "@sentry/browser": "^5.8.0",
+        "@sentry/node": "^5.8.0"
     },
     "dependencies": {
-        "@sentry/minimal": "^5.7.1"
+        "@sentry/minimal": "^5.8.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.7.0",
+        "@babel/core": "^7.7.2",
         "@jitesoft/babel-preset-main": "^1.7.3",
         "@jitesoft/eslint-config": "^1.7.2",
         "@jitesoft/yolog": "^2.6.5",
         "babel-eslint": "^10.0.3",
         "babel-jest": "^24.9.0",
         "babel-loader": "^8.0.6",
-        "core-js": "^3.3.6",
+        "core-js": "^3.4.1",
         "cross-env": "^6.0.3",
         "eslint": "^6.6.0",
         "jest": "^24.9.0",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10",
-        "@sentry/browser": "^5.7.1",
+        "@sentry/browser": "^5.8.0",
         "sentry-testkit": "^3.0.2"
     },
     "scripts": {
