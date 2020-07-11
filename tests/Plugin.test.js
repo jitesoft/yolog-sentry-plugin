@@ -5,7 +5,7 @@ import * as Sentry from '@sentry/browser';
 const { testkit, sentryTransport } = SentryTestkit();
 
 Sentry.init({
-  dsn: { port: 1231, protocol: 'https', user: 'test', pass: 'none!', host: 'examle.com', projectId: '123not-real' },
+  dsn: { port: 1231, protocol: 'https', user: 'test', pass: 'none!', host: 'examle.com', projectId: '123' },
   transport: sentryTransport
 });
 
