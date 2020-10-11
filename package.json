@@ -41,27 +41,27 @@
     },
     "peerDependencies": {
         "@jitesoft/yolog": "^3.0",
-        "@sentry/browser": "^5.24",
-        "@sentry/node": "^5.24"
+        "@sentry/browser": "^5.25",
+        "@sentry/node": "^5.25"
     },
     "dependencies": {
-        "@sentry/minimal": "^5.24"
+        "@sentry/minimal": "^5.25"
     },
     "devDependencies": {
         "@babel/core": "^7.11.6",
         "@babel/eslint-parser": "^7.11.5",
-        "@jitesoft/babel-preset-main": "^2.5.3",
-        "@jitesoft/eslint-config": "^2.6.0",
+        "@jitesoft/babel-preset-main": "^2.5.4",
+        "@jitesoft/eslint-config": "^2.8.0",
         "@jitesoft/yolog": "^3.0",
-        "babel-jest": "^26.3.0",
+        "babel-jest": "^26.5.2",
         "babel-loader": "^8.1.0",
         "core-js": "^3.6.5",
         "cross-env": "^7.0.2",
-        "eslint": "^7.9.0",
-        "jest": "^26.4.2",
-        "webpack": "^5.0.0-rc.0",
-        "webpack-cli": "^4.0.0-rc.0",
-        "@sentry/browser": "^5.24",
+        "eslint": "^7.11.0",
+        "jest": "^26.5.2",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0",
+        "@sentry/browser": "^5.25",
         "sentry-testkit": "^3.2.1"
     },
     "scripts": {
