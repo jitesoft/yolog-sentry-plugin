@@ -61,7 +61,7 @@ export default class Sentry extends Plugin {
 
       scope.setFingerprint([message]);
       scope.setLevel(tag);
-      if (this.#throwOn.some((t) => t === tag)) {
+      if (error && this.#throwOn.some((t) => t === tag)) {
         MinimalSentry.captureException(error);
       } else {
         MinimalSentry.captureMessage(message);
