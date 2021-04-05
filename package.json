@@ -41,28 +41,28 @@
     },
     "peerDependencies": {
         "@jitesoft/yolog": "^3.1",
-        "@sentry/browser": "^5.29",
-        "@sentry/node": "^5.29"
+        "@sentry/browser": "^6.2.5",
+        "@sentry/node": "^6.2.5"
     },
     "dependencies": {
-        "@sentry/minimal": "^5.29"
+        "@sentry/minimal": "^6.2.5"
     },
     "devDependencies": {
-        "@babel/core": "^7.12.10",
-        "@babel/eslint-parser": "^7.12.1",
-        "@jitesoft/babel-preset-main": "^2.7.3",
-        "@jitesoft/eslint-config": "^2.12.0",
-        "@jitesoft/yolog": "^3.1.4",
-        "@sentry/browser": "^5.29",
-        "babel-jest": "^27.0.0-next.2",
+        "@babel/core": "^7.13.14",
+        "@babel/eslint-parser": "^7.13.14",
+        "@jitesoft/babel-preset-main": "^2.9.0",
+        "@jitesoft/eslint-config": "^2.16.0",
+        "@jitesoft/yolog": "^3.1.6",
+        "@sentry/browser": "^6.2.5",
+        "babel-jest": "^27.0.0-next.7",
         "babel-loader": "^8.2.2",
-        "core-js": "^3.8.2",
+        "core-js": "^3.10.0",
         "cross-env": "^7.0.3",
-        "eslint": "^7.17",
-        "jest": "^27.0.0-next.2",
-        "sentry-testkit": "^3.2.1",
-        "webpack": "^5.11.1",
-        "webpack-cli": "^4.3.1"
+        "eslint": "^7.23.0",
+        "jest": "^27.0.0-next.7",
+        "sentry-testkit": "^3.3.2",
+        "webpack": "^5.30.0",
+        "webpack-cli": "^4.6.0"
     },
     "scripts": {
         "test": "jest",
